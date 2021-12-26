@@ -35,47 +35,47 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrap>
                         <FooterLinkItem>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to="/signin">how it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>درباره ما</FooterLinkTitle>
+                            <FooterLink to="/signin">چگونه کار می کند</FooterLink>
+                            <FooterLink to="/signin">گواهینامه ها</FooterLink>
+                            <FooterLink to="/signin">مشاغل</FooterLink>
+                            <FooterLink to="/signin">سرمایه گذاران</FooterLink>
+                            <FooterLink to="/signin">شرایط استفاده از خدمات</FooterLink>
                         </FooterLinkItem>
                         <FooterLinkItem>
-                            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                            <FooterLink to="/signin">how it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>تماس با ما</FooterLinkTitle>
+                            <FooterLink to="/signin">چگونه کار می کند</FooterLink>
+                            <FooterLink to="/signin">گواهینامه ها</FooterLink>
+                            <FooterLink to="/signin">مشاغل</FooterLink>
+                            <FooterLink to="/signin">سرمایه گذاران</FooterLink>
+                            <FooterLink to="/signin">شرایط استفاده از خدمات</FooterLink>
                         </FooterLinkItem>
                     </FooterLinksWrap>
                     <FooterLinksWrap>
                         <FooterLinkItem>
-                            <FooterLinkTitle>Videos</FooterLinkTitle>
-                            <FooterLink to="/signin">how it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>ویدیوها</FooterLinkTitle>
+                            <FooterLink to="/signin">چگونه کار می کند</FooterLink>
+                            <FooterLink to="/signin">گواهینامه ها</FooterLink>
+                            <FooterLink to="/signin">مشاغل</FooterLink>
+                            <FooterLink to="/signin">سرمایه گذاران</FooterLink>
+                            <FooterLink to="/signin">شرایط استفاده از خدمات</FooterLink>
                         </FooterLinkItem>
                         <FooterLinkItem>
-                            <FooterLinkTitle>Social Media</FooterLinkTitle>
-                            <FooterLink to="/signin">how it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>شبکه های اجتماعی</FooterLinkTitle>
+                            <FooterLink to="/signin">چگونه کار می کند</FooterLink>
+                            <FooterLink to="/signin">گواهینامه ها</FooterLink>
+                            <FooterLink to="/signin">مشاغل</FooterLink>
+                            <FooterLink to="/signin">سرمایه گذاران</FooterLink>
+                            <FooterLink to="/signin">شرایط استفاده از خدمات</FooterLink>
                         </FooterLinkItem>
                     </FooterLinksWrap>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>
-                            dolla
+                            WebFarda
                         </SocialLogo>
-                        <WebsiteRights>dolla . {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                        <WebsiteRights>WebFarda . {new Date().getFullYear()} تمامی حقوق محفوظ می باشد</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                                 <FaInstagram />

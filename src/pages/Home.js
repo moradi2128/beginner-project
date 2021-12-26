@@ -12,7 +12,6 @@ const Home = () => {
     const [isOpen, seIsOpen] = useState(false)
     const toggleHandler = () => {
         seIsOpen(!isOpen);
-        console.log(isOpen)
     }
 
     return (

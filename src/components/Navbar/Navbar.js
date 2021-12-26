@@ -37,7 +37,7 @@ const Navbar = (props) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer >
-                    <NavLogo to="/" onClick={toggleHome}>dolla</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>WebFarda</NavLogo>
                     <MobileIcon onClick={props.toggleHandler}>
                         <FaBars />
                     </MobileIcon>
@@ -51,7 +51,7 @@ const Navbar = (props) => {
                                 exact='true'
                                 offset={-80}
 
-                            >About</NavLinks>
+                            >درباره ما</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks
@@ -62,7 +62,7 @@ const Navbar = (props) => {
                                 exact='true'
                                 offset={-80}
 
-                            >Discover</NavLinks>
+                            >پیشنهاد ویژه</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks
@@ -72,7 +72,7 @@ const Navbar = (props) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                            >Services</NavLinks>
+                            >خدمات</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks
@@ -82,7 +82,7 @@ const Navbar = (props) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                            >Sign Up</NavLinks>
+                            >ثبت نام</NavLinks>
                         </NavItem>
 
                     </NavMenu>
@@ -94,7 +94,7 @@ const Navbar = (props) => {
                             spy={true}
                             exact='true'
                             offset={-80}
-                        >Sign In</NavBtnLink>
+                        >ورود</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

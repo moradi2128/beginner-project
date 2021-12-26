@@ -17,16 +17,16 @@ const SignIn = () => {
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/">dolla</Icon>
+                    <Icon to="/">WebFarda</Icon>
                     <FormContent>
                         <Form action="#">
-                            <FormH1>Sign in to your account</FormH1>
-                            <FormLabel htmlFor="for">Email</FormLabel>
+                            <FormH1>به حساب خود وارد شوید</FormH1>
+                            <FormLabel htmlFor="for">ایمیل</FormLabel>
                             <FormInput type="email" required />
-                            <FormLabel htmlFor="for">Password</FormLabel>
+                            <FormLabel htmlFor="for">رمز ورود</FormLabel>
                             <FormInput type="password" required />
-                            <FormButton type="submit">Continue</FormButton>
-                            <Text>Forget password</Text>
+                            <FormButton type="submit">ورود</FormButton>
+                            <Text>فراموشی رمز ورود</Text>
                         </Form>
                     </FormContent>
                 </FormWrap>

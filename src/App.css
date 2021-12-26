@@ -1,7 +1,27 @@
+
+@font-face {
+  font-family: 'Vazir';
+  src: local('Vazir'), url(./fonts/Vazir.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Vazir';
+  src: local('Vazir'), url(./fonts/Vazir.eot) format('embedded-opentype');
+}
+@font-face {
+  font-family: 'Vazir';
+  src: local('Vazir'),url(./fonts/Vazir.woff),format('woff');
+}
+@font-face {
+  font-family: 'Vazir';
+  src: url(./fonts/Vazir.woff2),local('Vazir'),format('woff2');
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Encode Sans Expanded", sans-serif;
+  
 }
- 
+body {
+  direction: rtl;
+  font-family: "Vazir", sans-serif;
+}

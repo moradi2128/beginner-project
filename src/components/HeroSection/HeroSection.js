@@ -25,8 +25,8 @@ const HeroSection = () => {
                     <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
                 </HeroBg>
                 <HeroContent>
-                    <HeroH1>Virtual Banking Made Easy</HeroH1>
-                    <HeroP>Sign uo for a new accoun today and receive $250 in credit towards your next payment </HeroP>
+                    <HeroH1>بانکداری مجازی آسان شد</HeroH1>
+                    <HeroP>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </HeroP>
                     <HeroBtnWrapper>
                         <Button to="signup"
                             onMouseEnter={onHover}
@@ -38,7 +38,7 @@ const HeroSection = () => {
                             spy={true}
                             exact='true'
                             offset={-80}
-                        >Get Started{hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        >شروع کنید{hover ? <ArrowForward /> : <ArrowRight />}</Button>
                     </HeroBtnWrapper>
                 </HeroContent>
             </HeroContainer>

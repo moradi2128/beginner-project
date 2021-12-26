@@ -20,13 +20,13 @@ const Sidebar = (props) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to="about" onClick={props.toggleHandler}>About</SidebarLink>
-                        <SidebarLink to="discover" onClick={props.toggleHandler}>Discover</SidebarLink>
-                        <SidebarLink to="services" onClick={props.toggleHandler}>Services</SidebarLink>
-                        <SidebarLink to="signup" onClick={props.toggleHandler}>Sign Up</SidebarLink>
+                        <SidebarLink to="about" onClick={props.toggleHandler}>درباره ما</SidebarLink>
+                        <SidebarLink to="discover" onClick={props.toggleHandler}>پیشنهاد ویژه</SidebarLink>
+                        <SidebarLink to="services" onClick={props.toggleHandler}>خدمات</SidebarLink>
+                        <SidebarLink to="signup" onClick={props.toggleHandler}>ثبت نام</SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>
-                        <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                        <SidebarRoute to="/signin">ورود</SidebarRoute>
                     </SideBtnWrap>
                 </SidebarWrapper>
             </SidebarContainer>

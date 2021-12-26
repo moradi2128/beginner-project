@@ -48,7 +48,7 @@ display: none;
     display: block;
     position:absolute;
     top: 0;
-    right:0;
+    left:3.5rem;
     transform:translate(-100%,60%);
     font-size:1.8rem;
     cursor:pointer;
